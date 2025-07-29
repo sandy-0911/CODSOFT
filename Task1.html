@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandeep Simran Sahoo | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f8f9fa; }
+    header, footer { background-color: #2b4fc4; color: white; text-align: center; padding: 30px 0; }
+    section { padding: 24px; max-width: 1000px; margin: auto; background: white; margin-bottom: 24px; border-radius: 10px; box-shadow: 0 0 16px rgba(0,0,0,0.08); }
+    h2 { color: #2b4fc4; margin-top: 0; }
+    .projects img { width: 100%; max-width: 320px; display: block; margin: 10px 0; }
+    .resume-btn { background-color: #2b4fc4; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 12px; font-weight: bold; transition: background 0.2s; }
+    .resume-btn:hover { background: #1a357a; }
+    ul { padding-left: 24px; }
+    .skills-list { display: flex; flex-wrap: wrap; gap: 18px; list-style: none; padding: 0; }
+    .skills-list li { display: flex; align-items: center; background: #f0f4ff; border-radius: 5px; padding: 8px 14px; font-weight: 500; }
+    .skills-list li span { margin-right: 8px; font-size: 1.2em; }
+    .contact-links a { color: #2b4fc4; text-decoration: none; font-weight: bold; }
+    .contact-links a:hover { text-decoration: underline; }
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      header, footer { padding: 18px; }
+      section { padding: 14px; }
+      .resume-btn { width: 100%; text-align: center; }
+      .skills-list { flex-direction: column; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sandeep Simran Sahoo</h1>
+    <p style="font-size:1.2em; margin-bottom: 8px;">Full Stack Developer & Innovator</p>
+    <p style="font-size:1em; font-style: italic;">Final-year ECE Student at Dr B.R. Ambedkar NIT | MERN Stack | AI Enthusiast</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="Profile Picture" style="width:150px; border-radius: 50%; box-shadow: 0 2px 8px rgba(43,79,196,0.15);">
+    <p>
+      Hi! I’m <b>Sandeep Simran Sahoo</b>, a passionate full stack developer and electronics engineering student at Dr B.R. Ambedkar National Institute of Technology. I thrive on building robust, scalable web applications and love solving real-world problems with technology. My expertise spans the <b>MERN stack</b>, AI-driven solutions, and user-centric design. I’m always eager to learn, collaborate, and create impactful digital experiences.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li><span>🌐</span>HTML, CSS, JavaScript</li>
+      <li><span>⚛️</span>React.js</li>
+      <li><span>🟢</span>Node.js, Express.js</li>
+      <li><span>🍃</span>MongoDB</li>
+      <li><span>💻</span>C++, Data Structures & Algorithms</li>
+      <li><span>🔗</span>REST APIs</li>
+      <li><span>🔧</span>Git & GitHub</li>
+      <li><span>🤖</span>AI Tools & Integration</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <h3>1. Video Streaming App</h3>
+      <p>
+        <b>Tech:</b> MERN Stack, JWT Auth, Cloud Storage<br>
+        Developed a full-stack video platform enabling users to upload, stream, and manage videos securely. Features custom playback, user authentication, and scalable backend.
+      </p>
+
+      <h3>2. Car Rental Web App</h3>
+      <p>
+        <b>Tech:</b> React, Node.js, MongoDB<br>
+        Designed and built a seamless car rental platform with real-time search, booking, and an intuitive admin dashboard for fleet management.
+      </p>
+
+      <h3>3. AI Powered Blog Platform</h3>
+      <p>
+        <b>Tech:</b> AI APIs, MERN Stack<br>
+        Created a dynamic blogging platform leveraging AI for content idea generation and post management, enhancing user engagement and productivity.
+      </p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a class="resume-btn" href="resume.pdf" download>⬇️ Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-links">
+      <p>Email: <a href="mailto:sandeepapply7@gmail.com">sandeepapply7@gmail.com</a></p>
+      <p>Phone: <a href="tel:123456789">123456789</a></p>
+      <p>
+        <a href="https://github.com/your-github" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sandeep Simran Sahoo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
